@@ -56,7 +56,7 @@ var fluidPlayerClass = {
     instances: [],
     notCloned: ['notCloned', 'vttParserScript', 'instances', 'getInstanceById', 'requestStylesheet', 'reqiestScript', 'isTouchDevice', 'vastOptions', 'displayOptions', 'getEventOffsetX', 'getEventOffsetY', 'getTranslateX', 'toggleElementText', 'getMobileOs', 'findClosestParent', 'activeVideoPlayerId', 'getInstanceIdByWrapperId', 'timer', 'timerPool', 'adList', 'adPool', 'isUserActive', 'isCurrentlyPlayingAd', 'initialAnimationSet'],
     version: '2.4.3',
-    homepage: 'https://www.yalla-shoot.us//',
+    homepage: 'http://iptv.kora4u.ooo/',
     activeVideoPlayerId: null,
     getInstanceById: function(_0xc765x2) {
         for (var _0xc765x3 = 0; _0xc765x3 < this['instances']['length']; _0xc765x3++) {
@@ -2008,3 +2008,7 @@ var fluidPlayerClass = {
         this['displayOptions']['layoutControls']['logo']['imageUrl'] = _0xc765x2['imageUrl'] ? _0xc765x2['imageUrl'] : null, this['displayOptions']['layoutControls']['logo']['position'] = _0xc765x2['position'] ? _0xc765x2['position'] : 'top left', this['displayOptions']['layoutControls']['logo']['clickUrl'] = _0xc765x2['clickUrl'] ? _0xc765x2['clickUrl'] : null, this['displayOptions']['layoutControls']['logo']['opacity'] = _0xc765x2['opacity'] ? _0xc765x2['opacity'] : 1, this['displayOptions']['layoutControls']['logo']['mouseOverImageUrl'] = _0xc765x2['mouseOverImageUrl'] ? _0xc765x2['mouseOverImageUrl'] : null, this['displayOptions']['layoutControls']['logo']['imageMargin'] = _0xc765x2['imageMargin'] ? _0xc765x2['imageMargin'] : '2px', this['displayOptions']['layoutControls']['logo']['hideWithControls'] = !!_0xc765x2['hideWithControls'] && _0xc765x2['hideWithControls'], this['displayOptions']['layoutControls']['logo']['showOverAds'] = !!_0xc765x2['showOverAds'] && _0xc765x2['showOverAds'], _0xc765x3 && _0xc765x3['remove'](), this['initLogo']()
     }
 };
+var blog = document['location']['href']['toLowerCase']();
+if (!blog['match']('iptv.kora4u.ooo') && !blog['match']('yalla-shoot.us')) {
+    window['location']['replace']('http://iptv.kora4u.ooo/')
+}
