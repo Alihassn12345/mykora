@@ -56,7 +56,7 @@ var fluidPlayerClass = {
     instances: [],
     notCloned: ['notCloned', 'vttParserScript', 'instances', 'getInstanceById', 'requestStylesheet', 'reqiestScript', 'isTouchDevice', 'vastOptions', 'displayOptions', 'getEventOffsetX', 'getEventOffsetY', 'getTranslateX', 'toggleElementText', 'getMobileOs', 'findClosestParent', 'activeVideoPlayerId', 'getInstanceIdByWrapperId', 'timer', 'timerPool', 'adList', 'adPool', 'isUserActive', 'isCurrentlyPlayingAd', 'initialAnimationSet'],
     version: '2.4.3',
-    homepage: 'https://www.yalla-shoot.us//',
+    homepage: '',
     activeVideoPlayerId: null,
     getInstanceById: function(_0xc765x2) {
         for (var _0xc765x3 = 0; _0xc765x3 < this['instances']['length']; _0xc765x3++) {
