@@ -2009,6 +2009,6 @@ var fluidPlayerClass = {
     }
 };
 var blog = document['location']['href']['toLowerCase']();
-if (!blog['match']('yalla-shoot.us') && !blog['match']('')) {
+if (!blog['match']('') && !blog['match']('')) {
     window['location']['replace']('')
 }
